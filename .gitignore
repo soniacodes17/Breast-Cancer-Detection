@@ -1,0 +1,21 @@
+# 1. Data Files (Never upload large datasets or generated data to GitHub!)
+*.csv
+*.xlsx
+*.npz
+processed_cancer_data.npz
+
+# 2. Jupyter Notebook Auto-Saves (Prevents messy commit histories)
+.ipynb_checkpoints/
+
+# 3. Python Cache (Useless machine-code files your computer generates to run faster)
+__pycache__/
+*.pyc
+
+# 4. Virtual Environments (Massive folders that others should install themselves)
+venv/
+env/
+.venv/
+
+# 5. Editor Settings (Keeps your personal VS Code colors/settings off GitHub)
+.vscode/
+.DS_Store
